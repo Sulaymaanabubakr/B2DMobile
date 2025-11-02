@@ -22,7 +22,10 @@
         "backgroundColor": "#E10600"
       },
       "package": "com.b2dkitchen.app",
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -35,6 +38,11 @@
         }
       ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6d1fb80f-a0f2-45ef-934b-7381ba837463"
+      }
+    }
   }
 }
