@@ -33,7 +33,8 @@
         {
           "photosPermission": "The app accesses your photos to let you share them with B2D Kitchen."
         }
-      ]
+      ],
+      "expo-font"
     ]
   }
 }
